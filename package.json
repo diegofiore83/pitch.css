@@ -1,0 +1,26 @@
+{
+  "name": "pitch.css",
+  "version": "1.0.0",
+  "description": "Responsive football pitch made with pure CSS",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm-run-all --parallel scss:style",
+    "scss:style": "gulp default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegofiore83/pitch.css.git"
+  },
+  "keywords": [
+    "CSS",
+    "Sass"
+  ],
+  "author": "Diego Fiore",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^3.1.0",
+    "npm-run-all": "1.8.0"
+  }
+}

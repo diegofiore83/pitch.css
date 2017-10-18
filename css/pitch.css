@@ -1,0 +1,336 @@
+.mod-pitch {
+  background: url(http://www.transparenttextures.com/patterns/fake-brick.png) repeat #6b220b;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.mod-pitch .md-center {
+  display: inline-block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  width: 0;
+}
+
+.mod-pitch .md-grass {
+  background: url(http://www.transparenttextures.com/patterns/pool-table.png) repeat #008000;
+  display: inline-block;
+  height: 0;
+  margin: 0 auto;
+  padding: 30% 0 100% 0;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.mod-pitch .md-grass:before {
+  border: 2px solid #eee;
+  content: "";
+  display: block;
+  height: 6%;
+  left: 38%;
+  margin: 0;
+  position: absolute;
+  width: 24%;
+  z-index: 2;
+  top: 2.8%;
+}
+
+.mod-pitch .md-grass:after {
+  border: 2px solid #eee;
+  content: "";
+  display: block;
+  height: 6%;
+  left: 38%;
+  margin: 0;
+  position: absolute;
+  width: 24%;
+  z-index: 2;
+  bottom: 2.8%;
+}
+
+.mod-pitch .md-grass .md-goal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  height: 94%;
+  margin: auto;
+  border: 2px solid #eee;
+}
+
+.mod-pitch .md-grass .md-goal:before {
+  border: 3px solid #eee;
+  content: "";
+  height: 0;
+  left: 41%;
+  margin: 0;
+  padding-bottom: 6%;
+  position: absolute;
+  overflow: hidden;
+  top: -3%;
+  width: 18%;
+}
+
+.mod-pitch .md-grass .md-goal:after {
+  border: 3px solid #eee;
+  content: "";
+  height: 0;
+  left: 41%;
+  margin: 0;
+  padding-bottom: 6%;
+  position: absolute;
+  overflow: hidden;
+  bottom: -3%;
+  width: 18%;
+}
+
+.mod-pitch .md-grass .md-corner {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  height: 94%;
+  margin: auto;
+  border: 2px solid #eee;
+}
+
+.mod-pitch .md-grass .md-corner .md-corner-top:before {
+  border: 2px solid #eee;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  content: "";
+  height: 0;
+  margin: 0;
+  padding-bottom: 6%;
+  position: absolute;
+  top: -3%;
+  width: 6%;
+  left: -4%;
+}
+
+.mod-pitch .md-grass .md-corner .md-corner-top:after {
+  border: 2px solid #eee;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  content: "";
+  height: 0;
+  margin: 0;
+  padding-bottom: 6%;
+  position: absolute;
+  top: -3%;
+  width: 6%;
+  right: -4%;
+}
+
+.mod-pitch .md-grass .md-corner .md-corner-bottom:before {
+  border: 2px solid #eee;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  content: "";
+  height: 0;
+  margin: 0;
+  padding-bottom: 6%;
+  position: absolute;
+  bottom: -3%;
+  width: 6%;
+  left: -4%;
+}
+
+.mod-pitch .md-grass .md-corner .md-corner-bottom:after {
+  border: 2px solid #eee;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  content: "";
+  height: 0;
+  margin: 0;
+  padding-bottom: 6%;
+  position: absolute;
+  bottom: -3%;
+  width: 6%;
+  right: -4%;
+}
+
+.mod-pitch .md-grass .md-arc-top {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  height: 94%;
+  margin: auto;
+  border: 2px solid #eee;
+}
+
+.mod-pitch .md-grass .md-arc-top:before {
+  background: #eee;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  content: "";
+  display: block;
+  height: 1%;
+  left: 49%;
+  margin: 0;
+  position: absolute;
+  width: 1.6%;
+  top: 12%;
+  z-index: 2;
+}
+
+.mod-pitch .md-grass .md-arc-top:after {
+  border: 2px solid #eee;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  content: "";
+  display: block;
+  height: 0;
+  left: 40%;
+  margin: 0;
+  padding-bottom: 16%;
+  position: absolute;
+  width: 20%;
+  top: 8%;
+}
+
+.mod-pitch .md-grass .md-arc-bottom {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  height: 94%;
+  margin: auto;
+  border: 2px solid #eee;
+}
+
+.mod-pitch .md-grass .md-arc-bottom:before {
+  background: #eee;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  content: "";
+  display: block;
+  height: 1%;
+  left: 49%;
+  margin: 0;
+  position: absolute;
+  width: 1.6%;
+  bottom: 12%;
+  z-index: 2;
+}
+
+.mod-pitch .md-grass .md-arc-bottom:after {
+  border: 2px solid #eee;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  content: "";
+  display: block;
+  height: 0;
+  left: 40%;
+  margin: 0;
+  padding-bottom: 16%;
+  position: absolute;
+  width: 20%;
+  bottom: 8%;
+}
+
+.mod-pitch .md-grass .md-halfway-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  height: 94%;
+  margin: auto;
+  border: 2px solid #eee;
+}
+
+.mod-pitch .md-grass .md-halfway-line:before {
+  border: 2px solid #eee;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  content: "";
+  display: block;
+  height: 0;
+  left: 40%;
+  margin: 0;
+  padding-bottom: 21%;
+  position: absolute;
+  top: 43%;
+  width: 21%;
+}
+
+.mod-pitch .md-grass .md-halfway-line:after {
+  border: 1px solid #eee;
+  content: "";
+  display: block;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.mod-pitch .md-grass .md-penalty-area {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  height: 94%;
+  margin: auto;
+  border: 2px solid #eee;
+}
+
+.mod-pitch .md-grass .md-penalty-area:before {
+  background: url(http://www.transparenttextures.com/patterns/pool-table.png) repeat #008000;
+  border: 2px solid #eee;
+  content: "";
+  display: block;
+  height: 16%;
+  left: 25%;
+  margin: -2px;
+  position: absolute;
+  width: 50%;
+  top: 0;
+}
+
+.mod-pitch .md-grass .md-penalty-area:after {
+  background: url(http://www.transparenttextures.com/patterns/pool-table.png) repeat #008000;
+  border: 2px solid #eee;
+  content: "";
+  display: block;
+  height: 16%;
+  left: 25%;
+  margin: -2px;
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+}
+
+.mod-pitch .md-grass .md-center-spot {
+  background: #eee;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  content: "";
+  display: block;
+  height: 1.1%;
+  margin: 0;
+  position: absolute;
+  width: 1.6%;
+  z-index: 2;
+  left: 49.7%;
+  top: 49.5%;
+}

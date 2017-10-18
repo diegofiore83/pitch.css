@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+        
+<link rel="stylesheet" type="text/css" href="css/pitch.css">
+
+
+<script>
+    function resizer(value) {
+        document.getElementById("pitch").style.width = value + "px";
+    }
+</script>
+
+<body>
+    <h2>Change Dimension <input id="pitch-resizer" type="range" min="0" max="1000" value="500" onchange="resizer(this.value)" oninput="resizer(this.value)" /></h2> 
+
+    <div id="pitch" class="mod-pitch" style="width: 500px;">
+        <div class="md-grass">
+            <div class="md-goal"></div>
+            <div class="md-corner">
+                <div class="md-corner-top"></div>
+                <div class="md-corner-bottom"></div>
+            </div>
+            <div class="md-arc-top"></div>
+            <div class="md-arc-bottom"></div>
+            <div class="md-halfway-line"></div>
+            <div class="md-penalty-area"></div>
+            <div class="md-center-spot"></div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+$ground: url(http://www.transparenttextures.com/patterns/fake-brick.png) repeat #6b220b;
+$grass: url(http://www.transparenttextures.com/patterns/pool-table.png) repeat #008000;
+
+.mod-pitch { background: $ground; height: 100%; margin: 0; padding: 0; position: relative; text-align: center; vertical-align: middle; 
+    .md-center { display: inline-block; height: 100%; margin: 0; padding: 0; vertical-align: middle; width: 0; }
+    .md-grass { background: $grass; display: inline-block; height: 0; margin: 0 auto; padding: 30% 0 100% 0; position: relative; vertical-align: middle; width: 100%; 
+        &:before { border: 2px solid #eee; content: ""; display: block; height: 6%; left: 38%; margin: 0; position: absolute; width: 24%; z-index: 2; top: 2.8%; }
+        &:after { border: 2px solid #eee; content: ""; display: block; height: 6%; left: 38%; margin: 0; position: absolute; width: 24%; z-index: 2; bottom: 2.8%; }
+        .md-goal { position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 90%; height: 94%; margin: auto; border: 2px solid #eee;
+            &:before { border: 3px solid #eee; content: ""; height: 0; left: 41%; margin: 0; padding-bottom: 6%; position: absolute; overflow: hidden; top: -3%; width: 18%;  }
+            &:after { border: 3px solid #eee; content: ""; height: 0; left: 41%; margin: 0; padding-bottom: 6%; position: absolute; overflow: hidden; bottom: -3%; width: 18%; }
+        }
+        .md-corner { overflow: hidden; position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 90%; height: 94%; margin: auto; border: 2px solid #eee;
+            .md-corner-top {  
+                &:before { border: 2px solid #eee; border-radius: 50%; content: ""; height: 0; margin: 0; padding-bottom: 6%; position: absolute; top: -3%; width: 6%; left: -4%; }
+                &:after { border: 2px solid #eee; border-radius: 50%; content: ""; height: 0; margin: 0; padding-bottom: 6%; position: absolute; top: -3%; width: 6%; right: -4%; }
+            } 
+            .md-corner-bottom { 
+                &:before { border: 2px solid #eee; border-radius: 50%; content: ""; height: 0; margin: 0; padding-bottom: 6%; position: absolute; bottom: -3%; width: 6%; left: -4%; }
+                &:after { border: 2px solid #eee; border-radius: 50%; content: ""; height: 0; margin: 0; padding-bottom: 6%; position: absolute; bottom: -3%; width: 6%; right: -4%; }
+            }             
+        }
+        .md-arc-top { position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 90%; height: 94%; margin: auto; border: 2px solid #eee;
+            &:before { background: #eee; border-radius: 50%; content: ""; display: block; height: 1%; left: 49%; margin: 0; position: absolute; width: 1.6%; top: 12%; z-index: 2; }
+            &:after { border: 2px solid #eee; border-radius: 50%; content: ""; display: block; height: 0; left: 40%; margin: 0; padding-bottom: 16%; position: absolute; width: 20%; top: 8%; }
+        }
+        .md-arc-bottom { position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 90%; height: 94%; margin: auto; border: 2px solid #eee;
+            &:before { background: #eee; border-radius: 50%; content: ""; display: block; height: 1%; left: 49%; margin: 0; position: absolute; width: 1.6%; bottom: 12%; z-index: 2; }
+            &:after { border: 2px solid #eee; border-radius: 50%; content: ""; display: block; height: 0; left: 40%; margin: 0; padding-bottom: 16%; position: absolute; width: 20%; bottom: 8%; }
+        }
+        .md-halfway-line { position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 90%; height: 94%; margin: auto; border: 2px solid #eee;
+            &:before { border: 2px solid #eee; border-radius: 50%; content: ""; display: block; height: 0; left: 40%; margin: 0; padding-bottom: 21%; position: absolute; top: 43%; width: 21%; } 
+            &:after { border: 1px solid #eee; content: ""; display: block; height: 0; position: absolute; top: 50%; width: 100%; }
+        }
+        .md-penalty-area { position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 90%; height: 94%; margin: auto; border: 2px solid #eee;
+            &:before { background: $grass; border: 2px solid #eee; content: ""; display: block; height: 16%; left: 25%; margin: -2px; position: absolute; width: 50%; top: 0; }
+            &:after { background: $grass; border: 2px solid #eee; content: ""; display: block; height: 16%; left: 25%; margin: -2px; position: absolute; width: 50%; bottom: 0; }
+        }
+        .md-center-spot { background: #eee; border-radius: 50%; content: ""; display: block; height: 1.1%; margin: 0; position: absolute; width: 1.6%; z-index: 2; left: 49.7%; top: 49.5%; }
+    }
+}
